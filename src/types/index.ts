@@ -9,6 +9,7 @@
 */
 type typeAirflowConfig = {
   timeout?: number|undefined|null,
+  airflowApiVersion?: string,
   airflowUrl: string,
   airflowUsername?: string,
   airflowPassword?: string
